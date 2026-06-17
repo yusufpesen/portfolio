@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Pesen – Frontend Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .hero-header {
+            height: 350px;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+        }
+
+        .progress-bar-html { width: 85%; }
+        .progress-bar-css  { width: 75%; }
+        .progress-bar-js   { width: 65%; }
+        .progress-bar-bs   { width: 60%; }
+
+        .progress-custom {
+            height: 15px;
+        }
+
+        .project-label {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bit-codes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-white">
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-header d-flex flex-column justify-content-center align-items-center text-white text-center">
+        <h2 class="fw-bold">~Yusuf Pesen~</h2>
+        <h4 class="fw-normal">Frontend Developer in opleiding</h4>
+        <a href="#contact" class="btn btn-outline-light mt-3">Contact</a>
+    </header>
+
+    <section class="container mt-5" id="skills">
+        <h2 class="text-center fw-bold mb-4">Skills</h2>
+
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body p-4">
+                        <h4 class="text-center fw-bold mb-4">Talen & Frameworks</h4>
+                        <hr class="mb-4">
+
+                        <p class="text-center mb-1 small fw-bold">HTML</p>
+                        <div class="progress progress-custom mb-4">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-html" role="progressbar"></div>
+                        </div>
+
+                        <p class="text-center mb-1 small fw-bold">CSS</p>
+                        <div class="progress progress-custom mb-4">
+                            <div class="progress-bar bg-primary progress-bar-striped progress-bar-css" role="progressbar"></div>
+                        </div>
+
+                        <p class="text-center mb-1 small fw-bold">JavaScript</p>
+                        <div class="progress progress-custom mb-4">
+                            <div class="progress-bar bg-warning progress-bar-striped progress-bar-js" role="progressbar"></div>
+                        </div>
+
+                        <p class="text-center mb-1 small fw-bold">Bootstrap</p>
+                        <div class="progress progress-custom mb-4">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-bs" role="progressbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body p-4">
+                        <h4 class="text-center fw-bold mb-3">Opleiding & Certificaten</h4>
+                        <hr>
+
+                        <h5 class="text-center fw-bold mt-4 mb-2">ROC Midden Nederland</h5>
+                        <ul class="list-group list-group-flush border text-center mb-4">
+                            <li class="list-group-item">Software Development niveau 4</li>
+                        </ul>
+
+                        <h5 class="text-center fw-bold mb-2">Bit Academy</h5>
+                        <ul class="list-group list-group-flush border text-center">
+                            <li class="list-group-item">Frontend Developer</li>
+                            <li class="list-group-item">Webdevelopment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5" id="projects">
+        <h2 class="text-center fw-bold mb-4">Projects</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card shadow-sm border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="VSCode Project">
+                    <div class="card-body text-center p-4">
+                        <h5 class="fw-bold mb-2">VSCode – Extensies en environment</h5>
+                        <span class="project-label">Coming soon..</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="GPS Project">
+                    <div class="card-body text-center p-4">
+                        <h5 class="fw-bold mb-2">GPS – Fietscomputers voor SateliteBike</h5>
+                        <span class="project-label">Coming soon..</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="Vue Project">
+                    <div class="card-body text-center p-4">
+                        <h5 class="fw-bold mb-2">Vue – Frontend voor HikeGPS</h5>
+                        <span class="project-label">Coming soon..</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="React Project">
+                    <div class="card-body text-center p-4">
+                        <h5 class="fw-bold mb-2">React – Frontend voor BerryFarm</h5>
+                        <span class="project-label">Coming soon..</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="Backend Project">
+                    <div class="card-body text-center p-4">
+                        <h5 class="fw-bold mb-2">Backend – Always Darkmode</h5>
+                        <span class="project-label">Coming soon..</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="Lua Project">
+                    <div class="card-body text-center p-4">
+                        <h5 class="fw-bold mb-2">Lua – Lighting controller</h5>
+                        <span class="project-label">Coming soon..</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5 mb-5" id="contact">
+        <h2 class="text-center fw-bold mb-4">Contact</h2>
+
+        <div class="row">
+            <div class="col-12 col-md-7 px-4 mb-4 mb-md-0">
+                <form class="bg-white p-4 shadow-sm rounded border-0">
+                    <div class="row mb-3">
+                        <div class="col px-3">
+                            <label class="form-label text-center d-block mb-1">Naam:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col px-3">
+                            <label class="form-label text-center d-block mb-1">E-mail:</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-center d-block mb-1">Bedrijf</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label text-center d-block mb-1">Je bericht</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary px-5">Verzend</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-12 col-md-5 px-4 d-flex align-items-center justify-content-center">
+                <div class="text-center text-md-start">
+                    <div class="mb-4 d-flex flex-column align-items-center align-items-md-start">
+                        <i class="bi bi-geo-alt-fill fs-2 d-block text-dark mb-1"></i>
+                        <span class="text-muted">Utrecht, Nederland</span>
+                    </div>
+                    <div class="mb-4 d-flex flex-column align-items-center align-items-md-start">
+                        <i class="bi bi-telephone-fill fs-2 d-block text-dark mb-1"></i>
+                        <span class="text-muted">+31 6 87 12 96 87</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center align-items-md-start">
+                        <i class="bi bi-envelope-fill fs-2 d-block text-dark mb-1"></i>
+                        <span class="text-muted">yusufemrepsn@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
