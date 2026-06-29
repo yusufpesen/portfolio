@@ -1,6 +1,6 @@
 # Yusuf Pesen – Frontend Developer
 
-Hallo! Ik ben Yusuf, 18 jaar en studeer Software Development (niveau 4) aan het ROC Midden Nederland in Nieuwegein.
+Hallo! Ik ben Yusuf, 19 jaar en studeer Software Development (niveau 4) aan het ROC Midden Nederland in Nieuwegein.
 
 ## Skills
 - HTML
